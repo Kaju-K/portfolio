@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 1em;
-    /* z-index: -1; */
+    max-width: 550px;
 }
 
 .projects {

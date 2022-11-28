@@ -3,7 +3,7 @@ header {
     box-sizing: border-box;
     width: 100%;
     justify-content: space-between;
-    padding: 1em 1em;
+    padding: 0 1em;
     align-items: center;
     background-color: var(--background-color);
     border-bottom: 2px solid var(--lighter-background-color);
@@ -12,9 +12,16 @@ header {
     z-index: 1;
 }
 
+@media screen and (min-width:850px) {
+    header {
+        padding: 0em 15%;
+    }
+}
+
 .header-name {
     font-weight: 700;
     font-size: 1.3em;
+    padding: 1em 0;
 }
 
 .fa-slash-forward {
@@ -33,8 +40,13 @@ header {
     color: var(--contrast-color);
 }
 
+@media screen and (min-width: 850px) {
+    .menu-button {
+        display: none;
+    }
+}
+
 .navigation-bar {
-    background-color: rgb(255, 255, 255, 0.1);
     width: 100%;
     backdrop-filter: blur(10px);
     position: fixed;
@@ -49,6 +61,43 @@ header {
     transition: .5s;
     text-decoration: none;
     z-index: 1;
+}
+
+@media screen and (min-width:850px) {
+    .navigation-bar {
+        position: relative;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        gap: 3em;
+        font-size: 0.867em;
+    }
+
+    .navigation-bar > a {
+        padding: 1em 0;
+        position: relative;
+    }
+
+    .navigation-bar > a:hover {
+        color: var(--contrast-color);
+    }
+
+    .navigation-bar > a::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 0%;
+        background-color: var(--contrast-color);
+        top: 0;
+        transition: 0.2s;
+    }
+
+    .navigation-bar > a:hover::before {
+        width: 100%;
+    }
 }
 
 .navigation-bar--active {
