@@ -1,0 +1,21 @@
+.about-me__description {
+    /* text-align: justify; */
+    line-height: 1.5em;
+}
+
+.about-me__curriculum {
+    margin: 1em;
+}
+
+.about-me__curriculum-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid var(--contrast-color);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.download-curriculum {
+    color: var(--contrast-color);
+}

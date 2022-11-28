@@ -1,0 +1,41 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    margin: 0 3em;
+}
+
+.skills-explanation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+}
+
+.skills-explanation-title {
+    margin-bottom: 1em ;
+}
+
+.skills-explanation {
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+.skills-logos {
+    background-color: transparent;
+    border: none;
+}
+
+.skills-logos > img {
+    color: var(--lighter-background-color);
+    transition: 0.5s;
+    width: 6em;
+}
+
+.skills-logos > img:hover {
+    transform: scale(1.2);
+}

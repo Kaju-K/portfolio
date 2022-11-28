@@ -1,0 +1,39 @@
+@import url("/css/header.css");
+@import url("/css/main.css");
+@import url("/css/about_me.css");
+@import url("/css/skills.css");
+@import url("/css/projects.css");
+@import url("/css/footer.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-font: 'Inter', sans-serif;
+    --background-color: #101820FF;
+    --lighter-background-color: #1f2933;
+    --contrast-color: #FEE715FF;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5em 0;
+    margin: 0 2em;
+    text-align: center;
+}
+
+.container__title {
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
