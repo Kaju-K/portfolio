@@ -2,14 +2,16 @@ main {
     box-sizing: border-box;
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
 
 .main-container {
-    width: 75%;
+    display: flex;
+    /* align-items: center; */
+    gap: 5em;
 }
 
 .main-title__text {
@@ -27,7 +29,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 300px;
+    min-width: 300px;
     margin: 0 auto;
 }
 
@@ -47,4 +49,55 @@ main {
 @keyframes blinking {
     0% {color: var(--contrast-color);}
     100% {color: transparent;}
+}
+
+.my-image {
+    display: none;
+}
+
+.main-link__text {
+    display: none;
+}
+
+@media screen and (min-width:850px) {
+    .main-container-content {
+        text-align: left;
+        min-width: 350px;
+    }
+
+    .main-title__text {
+        font-size: 1.5em;
+    }
+
+    .main-title__name {
+        font-size: 3em;
+    }
+
+    .texting {
+        font-size: 3em;
+    }
+
+    .container-link {
+        justify-content: left;
+        gap: 3em;
+    }
+
+    .main-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        gap: .2em;
+    }
+
+    .main-link__text {
+        display: inline-block;
+        font-size: .4em;
+        align-self: center;
+        color: white;
+    }
+
+    .my-image {
+        display: block;
+        width: 300px;
+    }
 }

@@ -9,6 +9,8 @@ descriptions = {
     "css": "It is a style sheet language used for describing the presentation of a document written in a markup language",
     "js": "It is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
     "python": "It is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+    "git": "It is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively.",
+    "github": "It is an Internet hosting service for software development and version control using Git."
 }
 
 allLogos.forEach( (logo) => {

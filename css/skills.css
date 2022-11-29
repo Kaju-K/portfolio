@@ -6,6 +6,7 @@
     gap: 2em;
     text-align: center;
     margin: 0 3em;
+    max-width: 420px;
 }
 
 .skills-explanation-container {
@@ -13,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10em;
+    height: 200px;
 }
 
 .skills-explanation-title {
