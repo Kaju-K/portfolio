@@ -3,10 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     text-align: center;
-    margin: 0 3em;
-    max-width: 420px;
+    max-width: 390px;
 }
 
 .skills-explanation-container {
@@ -34,7 +33,7 @@
 .skills-logos > img {
     color: var(--lighter-background-color);
     transition: 0.5s;
-    width: 6em;
+    height: 6em;
 }
 
 .skills-logos > img:hover {
