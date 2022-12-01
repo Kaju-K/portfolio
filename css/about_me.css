@@ -1,6 +1,24 @@
+.container-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5em 0;
+    margin: 0 2em;
+    text-align: center;
+}
+
+.container-about-me__title {
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
+
 .about-me__description {
-    /* text-align: justify; */
     line-height: 1.5em;
+}
+
+.about-me-content {
+    max-width: 550px;
 }
 
 .about-me__curriculum {
@@ -18,4 +36,46 @@
 
 .download-curriculum {
     color: var(--contrast-color);
+}
+
+.profile-picture {
+    display: none;
+}
+
+@media screen and (min-width:850px) {
+    .about-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        max-width: 900px;
+        gap: 1em;
+        padding: 3.5em 5em;
+        margin: 0 auto;
+    }
+
+    .container-about-me {
+        text-align: justify;
+    }
+
+    .container-about-me__title {
+        align-self: flex-start;
+    }
+
+    .about-me-content {
+        max-width: none;
+    }
+
+    .container-title {
+        text-align: left;
+    }
+
+    .profile-picture {
+        display: inline-block;
+        height: 250px;
+    }
+
+    .about-me__curriculum {
+        margin: 1.5em 0;
+    }
 }

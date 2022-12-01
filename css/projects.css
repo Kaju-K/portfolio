@@ -9,7 +9,7 @@
 
 .projects {
     background-color: var(--lighter-background-color);
-    width: 250px;
+    width: 90%;
     aspect-ratio: 7 / 5;
     border-radius: 10px;
     display: flex;
@@ -17,6 +17,7 @@
     align-items: center;
     overflow: hidden;
     transition: 0.4s;
+    margin: 1em 1em;
 }
 
 .projects:hover {
@@ -32,4 +33,9 @@
     font-weight: 700;
     color: var(--lighter-background-color);
     transform: rotate(-53deg);
+}
+
+.swiper {
+    margin: 0 auto;
+    width: 70%;
 }
