@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,7 +22,7 @@
 <body>
     <!-- Menu -->
     <header id="head-page">
-        <p class="header-name">&lsaquo;MK/&rsaquo;</p>
+        <a href="#top" class="header-name">&lsaquo;MK/&rsaquo;</a>
         <button aria-label="Menu" class="menu-button"><i class="fa-solid fa-bars" id="menu-image"></i></button>
         <nav class="navigation-bar">
             <!-- <i class="fa-solid fa-chevron-left"></i> <i class="fa-solid fa-slash-forward"></i> <i class="fa-solid fa-chevron-right"></i> -->
@@ -80,7 +81,7 @@
     <!-- About me -->
 
     <!-- Projects -->
-    <section class="container" id="projects">
+    <section class="container-projects" id="projects">
         <h2 class="container__title">Projects</h2>
         
         <div class="swiper">
@@ -118,28 +119,15 @@
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>
         </div>
-
-        <!-- <div class="projects-container">
-            <div class="projects">
-                <div class="warning"><p>Available Soon</p></div>
-            </div>
-            <div class="projects">
-                <div class="warning"><p>Available Soon</p></div>
-            </div>
-            <div class="projects">
-                <div class="warning"><p>Available Soon</p></div>
-            </div>
-            <div class="projects">
-                <div class="warning"><p>Available Soon</p></div>
-            </div> -->
         </div>
         
     </section>
     <!-- Projects -->
 
     <!-- Skills -->
-    <section class="container skills" id="skills">
+    <section class="container-skills" id="skills">
         <h2 class="container__title">Skills</h2>
+
         <div class="skills-explanation-container">
             <p class="skills-explanation-title"></p>
             <p class="skills-explanation">Put your mouse over one of the skills to know a little bit more about it.</p>
@@ -152,6 +140,23 @@
             <div class="skills-logos"><img src="img/logo/python-logo.svg" alt="python logo" data-logo="python"></div>
             <div class="skills-logos"><img src="img/logo/git-logo.svg" alt="git logo" data-logo="git"></div>
             <div class="skills-logos"><img src="img/logo/github-logo.svg" alt="github logo" data-logo="github"></div>
+        </div>
+
+        <div class="orbit-skills">
+            <div class="center">
+                <div class="center-image">
+                    <img src="img/logo/js-logo.svg" alt="html">
+                </div>
+                <p class="center-text">Click in one of the skills to know a little bit more about it.</p>
+            </div>
+            <div class="circle">
+                <img src="img/logo/html-logo.svg" alt="html" class="orbit-image" data-checked="true">
+                <img src="img/logo/css-logo.svg" alt="css" class="orbit-image" data-checked="false">
+                <img src="img/logo/js-logo.svg" alt="js" class="orbit-image" data-checked="false">
+                <img src="img/logo/python-logo.svg" alt="python" class="orbit-image" data-checked="false">
+                <img src="img/logo/git-logo.svg" alt="git" class="orbit-image" data-checked="false">
+                <img src="img/logo/github-logo.svg" alt="github" class="orbit-image" data-checked="false">
+            </div>
         </div>
     </section>
     <!-- Skiils -->

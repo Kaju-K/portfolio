@@ -10,10 +10,11 @@ html {
 }
 
 :root {
-    --main-font: 'Inter', sans-serif;
+    --main-font: 'Oswald', sans-serif;
     --background-color: #101820FF;
     --lighter-background-color: #1f2933;
     --contrast-color: #FEE715FF;
+    --time-animation: 50s;
 }
 
 body {
@@ -21,16 +22,6 @@ body {
     background-color: var(--background-color);
     box-sizing: border-box;
     color: white;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3.5em 0;
-    margin: 0 0em;
-    text-align: center;
 }
 
 .container__title {

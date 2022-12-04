@@ -1,10 +1,11 @@
-.projects-container {
+.container-projects {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
-    max-width: 550px;
+    padding: 3.5em 0;
+    margin: 0 0em;
+    text-align: center;
 }
 
 .projects {
@@ -36,6 +37,12 @@
 }
 
 .swiper {
-    margin: 0 auto;
     width: 70%;
+    max-width: 350px;
+}
+
+@media screen and (min-width:850px) {
+    .swiper {
+        max-width: 900px;
+    }
 }

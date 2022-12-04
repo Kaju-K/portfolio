@@ -5,12 +5,12 @@ explanation = document.querySelector(".skills-explanation")
 defaultMessage = "Put your mouse over one of the skills to know a little bit more about it."
 
 descriptions = {
-    "html": "It is the standard markup language for documents designed to be displayed in a web browser.",
-    "css": "It is a style sheet language used for describing the presentation of a document written in a markup language",
-    "js": "It is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
-    "python": "It is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
-    "git": "It is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively.",
-    "github": "It is an Internet hosting service for software development and version control using Git."
+    "html": "HTML is the standard markup language for documents designed to be displayed in a web browser.",
+    "css": "CSS is a style sheet language used for describing the presentation of a document written in a markup language",
+    "js": "JS is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+    "python": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+    "git": "GIT is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively.",
+    "github": "Github is an Internet hosting service for software development and version control using Git."
 }
 
 allLogos.forEach( (logo) => {
