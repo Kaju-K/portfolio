@@ -6,8 +6,8 @@ window.addEventListener( "resize" , resizeListener)
 function resizeListener() {
     let w = window.innerWidth
 
-    if (w < 850) {
-        numberOfProjects = 1
+    if (w < 900) {
+        numberOfProjects = 1.5
     } else {
         numberOfProjects = 3
     }
@@ -17,7 +17,7 @@ function resizeListener() {
     });
 }
 
-if (initialWidth < 850) {
+if (initialWidth < 900) {
     numberOfProjects = 1.5
 } else {
     numberOfProjects = 3

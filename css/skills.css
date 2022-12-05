@@ -62,7 +62,7 @@
     display: none;
 }
 
-@media screen and (min-width:850px) {
+@media screen and (min-width:900px) {
     .container-skills {
         height: 100vh;
         box-sizing: border-box;
@@ -121,7 +121,7 @@
         position: absolute;
         animation: spinning var(--time-animation) infinite linear;
         animation-direction: reverse;
-        width: 4rem;
+        width: 3.5rem;
         cursor: pointer;
     }
 

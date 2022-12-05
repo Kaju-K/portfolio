@@ -41,7 +41,7 @@
     max-width: 350px;
 }
 
-@media screen and (min-width:850px) {
+@media screen and (min-width:900px) {
     .swiper {
         max-width: 900px;
     }

@@ -14,6 +14,14 @@ main {
     gap: 5em;
 }
 
+.main-container-content {
+    box-sizing: border-box;
+}
+
+.main-title {
+    padding: 1rem;
+}
+
 .main-title__text {
     display: block;
     margin: 1em 0;
@@ -59,10 +67,10 @@ main {
     display: none;
 }
 
-@media screen and (min-width:850px) {
+@media screen and (min-width:900px) {
     .main-container-content {
         text-align: left;
-        min-width: 350px;
+        width: 350px;
     }
 
     .main-title__text {
