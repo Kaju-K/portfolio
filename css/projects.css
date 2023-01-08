@@ -41,6 +41,14 @@
     max-width: 350px;
 }
 
+.projects__link {
+    height: 100%;
+}
+
+.projects__image {
+    height: 100%;
+}
+
 @media screen and (min-width:900px) {
     .swiper {
         max-width: 900px;
