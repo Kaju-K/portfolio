@@ -47,7 +47,7 @@
 }
 
 @media screen and (min-width:900px) {
-    .about-me-wrapper {
+    .content-about-me {
         display: flex;
         justify-content: center;
         align-items: center;
