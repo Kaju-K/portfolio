@@ -7,6 +7,7 @@
     margin: 0 0em;
     text-align: center;
     background-color: var(--darker-background-color);
+    height: 100vh;
 }
 
 .orbit-skills {
@@ -65,7 +66,6 @@
 
 @media screen and (min-width:900px) {
     .container-skills {
-        height: 100vh;
         box-sizing: border-box;
     }
 
