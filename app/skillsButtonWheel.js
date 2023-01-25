@@ -9,6 +9,7 @@ descriptions = {
     "css": "CSS is a style sheet language used for describing the presentation of a document written in a markup language",
     "js": "JS is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
     "python": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+    "react": "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
     "git": "GIT is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively.",
     "github": "Github is an Internet hosting service for software development and version control using Git."
 }

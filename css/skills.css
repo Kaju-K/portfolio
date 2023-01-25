@@ -10,6 +10,13 @@
     height: 100vh;
 }
 
+.skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .orbit-skills {
     display: flex;
     flex-direction: column;
@@ -77,6 +84,10 @@
         display: none;
     }
 
+    .skills-list {
+        display: none;
+    }
+
     .orbit-skills {
         display: flex;
         justify-content: center;
@@ -133,27 +144,32 @@
     
     .circle > img:nth-child(2) {
         position: absolute;
-        translate: 6rem 10.4rem;
+        translate: 7.48rem 9.38rem;
     }
     
     .circle > img:nth-child(3) {
         position: absolute;
-        translate: -6rem 10.4rem;
+        translate: -2.67rem 11.7rem;
     }
     
     .circle > img:nth-child(4) {
         position: absolute;
-        translate: -12rem 0;
+        translate: -10.81rem 5.21rem;
     }
     
     .circle > img:nth-child(5) {
         position: absolute;
-        translate: -6rem -10.4rem;
+        translate: -10.81rem -5.21rem;
     }
     
     .circle > img:nth-child(6) {
         position: absolute;
-        translate: 6rem -10.4rem;
+        translate: -2.67rem -11.7rem;
+    }
+
+    .circle > img:nth-child(7) {
+        position: absolute;
+        translate: 7.48rem -9.38rem;
     }
 
     .circle:hover, .circle:hover .orbit-image {
