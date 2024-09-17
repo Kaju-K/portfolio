@@ -123,6 +123,7 @@
 
     .center-image {
         width: 4rem;
+        margin-top: -2rem;
     }
 
     .center-text {
@@ -144,42 +145,47 @@
     
     .circle > img:nth-child(2) {
         position: absolute;
-        translate: 9.19rem 7.71rem;
+        translate: 9.71rem 7.05rem;
     }
     
     .circle > img:nth-child(3) {
         position: absolute;
-        translate: 2.08rem 11.82rem;
+        translate: 3.71rem 11.41rem;
     }
     
     .circle > img:nth-child(4) {
         position: absolute;
-        translate: -6rem 10.39rem;
+        translate: -3.71rem 11.41rem;
     }
     
     .circle > img:nth-child(5) {
         position: absolute;
-        translate: -11.28rem 4.10rem;
+        translate: -9.71rem 7.05rem;
     }
     
     .circle > img:nth-child(6) {
         position: absolute;
-        translate: -11.28rem -4.10rem;
+        translate: -12rem 0rem;
     }
 
     .circle > img:nth-child(7) {
         position: absolute;
-        translate: -6rem -10.39rem;
+        translate: -9.71rem -7.05rem;
     }
 
     .circle > img:nth-child(8) {
         position: absolute;
-        translate: 2.08rem -11.82rem;
+        translate: -3.71rem -11.41rem;
     }
 
     .circle > img:nth-child(9) {
         position: absolute;
-        translate: 9.19rem -7.71rem;
+        translate: 3.71rem -11.41rem;
+    }
+
+    .circle > img:nth-child(10) {
+        position: absolute;
+        translate: 9.71rem -7.05rem;
     }
 
     .circle:hover, .circle:hover .orbit-image {

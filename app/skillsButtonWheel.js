@@ -11,6 +11,7 @@ descriptions = {
   python:
     "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
   react: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",
+  next: "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation.",
   elixir: "Elixir is a dynamic, functional language for building scalable and maintainable applications.",
   mongodb:
     "MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.",
@@ -26,7 +27,7 @@ orbitLogos.forEach((logo) => {
         `<a href="https://github.com/Kaju-K" target="_blank"><img src="img/logo/${logoName}-logo.svg"` +
         ` alt=${logoName} class="center-image"></a>`;
     } else {
-      centerImage.innerHTML = `<img src="img/logo/${logoName}-logo.svg"` + ` alt=${logoName} class="center-image">`;
+      centerImage.innerHTML = `<img src="img/logo/${logoName}-logo.svg" alt=${logoName} class="center-image">`;
     }
     centerText.innerHTML = descriptions[logoName];
   });
