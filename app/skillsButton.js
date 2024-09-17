@@ -8,6 +8,7 @@ descriptions = {
   html: "HTML is the standard markup language for documents designed to be displayed in a web browser.",
   css: "CSS is a style sheet language used for describing the presentation of a document written in a markup language",
   js: "JS is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+  node: "Node.js is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.",
   python:
     "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
   react: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.",

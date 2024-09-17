@@ -145,47 +145,52 @@
     
     .circle > img:nth-child(2) {
         position: absolute;
-        translate: 9.71rem 7.05rem;
+        translate: 10.09rem 6.49rem;
     }
     
     .circle > img:nth-child(3) {
         position: absolute;
-        translate: 3.71rem 11.41rem;
+        translate: 4.98rem 10.92rem;
     }
     
     .circle > img:nth-child(4) {
         position: absolute;
-        translate: -3.71rem 11.41rem;
+        translate: -1.71rem 11.88rem;
     }
     
     .circle > img:nth-child(5) {
         position: absolute;
-        translate: -9.71rem 7.05rem;
+        translate: -7.86rem 9.07rem;
     }
     
     .circle > img:nth-child(6) {
         position: absolute;
-        translate: -12rem 0rem;
+        translate: -11.51rem 3.38rem;
     }
 
     .circle > img:nth-child(7) {
         position: absolute;
-        translate: -9.71rem -7.05rem;
+        translate: -11.51rem -3.38rem;
     }
 
     .circle > img:nth-child(8) {
         position: absolute;
-        translate: -3.71rem -11.41rem;
+        translate: -7.86rem -9.07rem;
     }
 
     .circle > img:nth-child(9) {
         position: absolute;
-        translate: 3.71rem -11.41rem;
+        translate: -1.71rem -11.88rem;
     }
 
     .circle > img:nth-child(10) {
         position: absolute;
-        translate: 9.71rem -7.05rem;
+        translate: 4.98rem -10.92rem;
+    }
+
+    .circle > img:nth-child(11) {
+        position: absolute;
+        translate: 10.09rem -6.49rem;
     }
 
     .circle:hover, .circle:hover .orbit-image {
