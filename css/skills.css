@@ -144,32 +144,42 @@
     
     .circle > img:nth-child(2) {
         position: absolute;
-        translate: 7.48rem 9.38rem;
+        translate: 9.19rem 7.71rem;
     }
     
     .circle > img:nth-child(3) {
         position: absolute;
-        translate: -2.67rem 11.7rem;
+        translate: 2.08rem 11.82rem;
     }
     
     .circle > img:nth-child(4) {
         position: absolute;
-        translate: -10.81rem 5.21rem;
+        translate: -6rem 10.39rem;
     }
     
     .circle > img:nth-child(5) {
         position: absolute;
-        translate: -10.81rem -5.21rem;
+        translate: -11.28rem 4.10rem;
     }
     
     .circle > img:nth-child(6) {
         position: absolute;
-        translate: -2.67rem -11.7rem;
+        translate: -11.28rem -4.10rem;
     }
 
     .circle > img:nth-child(7) {
         position: absolute;
-        translate: 7.48rem -9.38rem;
+        translate: -6rem -10.39rem;
+    }
+
+    .circle > img:nth-child(8) {
+        position: absolute;
+        translate: 2.08rem -11.82rem;
+    }
+
+    .circle > img:nth-child(9) {
+        position: absolute;
+        translate: 9.19rem -7.71rem;
     }
 
     .circle:hover, .circle:hover .orbit-image {

@@ -69,6 +69,15 @@
     height: 55%;
 }
 
+.projects__image-desktop {
+    display: none;
+}
+
+.projects__image-mobile {
+    display: block;
+    height: 55%;
+}
+
 @media screen and (min-width:900px) {
     .swiper {
         max-width: 900px;
@@ -126,6 +135,15 @@
 
     .projects__image {
         height: 100%;
+    }
+    
+    .projects__image-desktop {
+        display: block;
+        height: 100%;
+    }
+
+    .projects__image-mobile {
+        display: none;
     }
 
     .warning {
